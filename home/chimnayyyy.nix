@@ -8,8 +8,10 @@
 
   programs.git = {
     enable = true;
-    userName = "Chinmay";
-    userEmail = "your-email@example.com";
+    settings = {
+	user.name = "chimnayajith";
+	user.email = "chinmayajith30@gmail.com";
+    };
   };
 
   programs.zsh.enable = true;
