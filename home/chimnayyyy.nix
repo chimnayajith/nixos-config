@@ -48,6 +48,7 @@
     neovim
     vim
     zoxide
+    xfce.thunar
     firefox-unwrapped
     vscode
     discord
