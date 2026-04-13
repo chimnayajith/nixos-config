@@ -18,7 +18,8 @@
 
   home.packages = with pkgs; [
     neovim
-    firefox
+    vim
+    firefox-uwrapped
     vscode
     discord
     spotify
