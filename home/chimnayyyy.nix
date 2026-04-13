@@ -60,7 +60,7 @@
     # ========================
     # 🌐 Browsers
     # ========================
-    firefox
+    firefox-unwrapped
     google-chrome
 
     # ========================
