@@ -10,7 +10,7 @@
 
   users.users.chimnayyyy = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "input" "docker" "vboxusers" ];
+    extraGroups = [ "wheel" "input" "docker" "vboxusers" "video" ];
     shell = pkgs.zsh;
   };
   
@@ -40,6 +40,7 @@
     avahi.enable = true;
     udisks2.enable = true;
     dbus.enable = true;
+    gvfs.enable = true;
   };
 
   hardware = {

@@ -9,8 +9,8 @@
   programs.git = {
     enable = true;
     settings = {
-	user.name = "chimnayajith";
-	user.email = "chinmayajith30@gmail.com";
+      user.name = "chimnayajith";
+      user.email = "chinmayajith30@gmail.com";
     };
   };
 
@@ -45,26 +45,59 @@
 
 
   home.packages = with pkgs; [
+
+    # ========================
+    # 🧠 Core CLI Tools
+    # ========================
     neovim
     vim
-    zoxide
-    xfce.thunar
-    firefox-unwrapped
-    vscode
-    discord
-    spotify
-    telegram-desktop
-    obs-studio
-    vlc
-    rofi
-    feh
-    alacritty
     btop
     unzip
     gh
-    scrcpy
-    android-studio
+    zoxide
+    brightnessctl
+
+    # ========================
+    # 🌐 Browsers
+    # ========================
+    firefox
     google-chrome
+
+    # ========================
+    # 💻 Development
+    # ========================
+    vscode
+    android-studio
+    scrcpy
+
+    # ========================
+    # 💬 Communication
+    # ========================
+    discord
+    telegram-desktop
+    zulip
+
+    # ========================
+    # 🎵 Media & Entertainment
+    # ========================
+    spotify
+    vlc
+    obs-studio
+
+    # ========================
+    # 🖼️ Window Manager Tools
+    # ========================
+    rofi
+    feh
+    alacritty
+
+    # ========================
+    # 📁 File Management
+    # ========================
+    xfce.thunar
+    xfce.thunar-archive-plugin
+    xfce.thunar-volman
+    gvfs
   ];
 
   home.stateVersion = "24.11";
