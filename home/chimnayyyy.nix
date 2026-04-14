@@ -69,6 +69,7 @@
     vscode
     android-studio
     scrcpy
+    flutter
 
     # ========================
     # 💬 Communication
