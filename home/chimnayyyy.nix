@@ -70,6 +70,7 @@
     android-studio
     scrcpy
     flutter
+    insomnia
 
     # ========================
     # 📄 Documents & Reading
