@@ -1,0 +1,71 @@
+{ config, pkgs, ... }:
+
+{
+  home.packages = with pkgs; [
+
+    # ========================
+    # 🧠 Core CLI Tools
+    # ========================
+    neovim
+    vim
+    btop
+    unzip
+    gh
+    zoxide
+    brightnessctl
+
+    # ========================
+    # 🌐 Browsers
+    # ========================
+    firefox-unwrapped
+    google-chrome
+
+    # ========================
+    # 💻 Development
+    # ========================
+    vscode
+    android-studio
+    scrcpy
+    flutter
+    insomnia
+
+    # ========================
+    # 📄 Documents & Reading
+    # ========================
+    sioyek
+
+    # ========================
+    # 📝 Office & Productivity
+    # ========================
+    libreoffice
+
+    # ========================
+    # 💬 Communication
+    # ========================
+    discord
+    telegram-desktop
+    zulip
+
+    # ========================
+    # 🎵 Media & Entertainment
+    # ========================
+    spotify
+    vlc
+    obs-studio
+
+    # ========================
+    # 🖼️ Window Manager Tools
+    # ========================
+    rofi
+    feh
+    alacritty
+
+    # ========================
+    # 📁 File Management
+    # ========================
+    xfce.thunar
+    xfce.thunar-archive-plugin
+    xfce.thunar-volman
+    gvfs
+  ];
+}
