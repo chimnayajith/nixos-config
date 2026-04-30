@@ -25,6 +25,7 @@
     # ========================
     vscode
     android-studio
+    android-tools
     scrcpy
     flutter
     insomnia
