@@ -28,6 +28,7 @@
     scrcpy
     flutter
     insomnia
+    mongodb-compass
 
     # ========================
     # 📄 Documents & Reading
