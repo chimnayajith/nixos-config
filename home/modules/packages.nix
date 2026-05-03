@@ -59,7 +59,7 @@
     spotify
     vlc
     obs-studio
-    kdenlive
+    kdePackages.kdenlive
 
     # ========================
     # 🖼️ Window Manager Tools
