@@ -59,6 +59,7 @@
     spotify
     vlc
     obs-studio
+    kdenlive
 
     # ========================
     # 🖼️ Window Manager Tools
