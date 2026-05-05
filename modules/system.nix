@@ -41,6 +41,7 @@
     udisks2.enable = true;
     dbus.enable = true;
     gvfs.enable = true;
+    openssh.enable = true;
   };
 
   hardware = {
