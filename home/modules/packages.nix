@@ -60,6 +60,7 @@
     vlc
     obs-studio
     kdePackages.kdenlive
+    qbittorrent
 
     # ========================
     # 🖼️ Window Manager Tools
