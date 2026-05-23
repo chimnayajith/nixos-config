@@ -23,6 +23,8 @@
       export ZSH="$HOME/.oh-my-zsh"
 
       eval "$(zoxide init zsh --cmd cd)"
+
+      export PATH="$HOME/.cargo/bin:$PATH" 
     '';
   };
 }
