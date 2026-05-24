@@ -42,8 +42,9 @@
     dbus.enable = true;
     gvfs.enable = true;
     openssh.enable = true;
+    flatpak.enable = true;
   };
-
+  
   hardware = {
     bluetooth.enable = true;
 
@@ -57,6 +58,14 @@
         nvidiaBusId = "PCI:1:0:0";
       };
     };
+  };
+
+  xdg.portal = {
+    enable = true;
+
+    extraPortals = with pkgs; [
+      xdg-desktop-portal-gtk
+    ];
   };
 
   security.polkit.enable = true;
