@@ -27,4 +27,8 @@
       export PATH="$HOME/.cargo/bin:$PATH" 
     '';
   };
+
+  home.sessionVariables = {
+    XDG_DATA_DIRS = "$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:$XDG_DATA_DIRS";
+  };
 }
