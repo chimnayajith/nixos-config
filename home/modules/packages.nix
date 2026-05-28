@@ -17,7 +17,7 @@
     # ========================
     # 🌐 Browsers
     # ========================
-    firefox-unwrapped
+    firefox
     google-chrome
 
     # ========================
