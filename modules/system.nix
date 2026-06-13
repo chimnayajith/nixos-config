@@ -71,5 +71,11 @@
   security.polkit.enable = true;
 
   networking.firewall.allowedTCPPorts = [ 8000 4321 3000 4173 ];
+  networking.firewall.allowedTCPPortRanges = [
+  	{ from = 1714; to = 1764; }
+  ];
 
+  networking.firewall.allowedUDPPortRanges = [
+  	{ from = 1714; to = 1764; }
+  ];
 }

@@ -15,5 +15,6 @@
     nodejs
     python311
     ghc
+    jdk17
   ];
 }
