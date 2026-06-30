@@ -13,6 +13,8 @@
     gh
     zoxide
     brightnessctl
+    playerctl
+    eww
 
     # ========================
     # 🌐 Browsers
