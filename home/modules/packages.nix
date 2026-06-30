@@ -15,6 +15,9 @@
     brightnessctl
     playerctl
     eww
+    wget
+    jq
+    bc
 
     # ========================
     # 🌐 Browsers
