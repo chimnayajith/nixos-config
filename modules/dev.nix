@@ -18,5 +18,11 @@
     python311
     ghc
     jdk17
+    ollama
   ];
+
+  services.ollama = {
+    enable = true;
+    acceleration = "cuda";   # or "rocm" or remove for CPU
+  };
 }
