@@ -7,6 +7,7 @@
     settings = {
       user.name = "chimnayajith";
       user.email = "chinmayajith30@gmail.com";
+      core.editor = "vim";
     };
   };
 }
