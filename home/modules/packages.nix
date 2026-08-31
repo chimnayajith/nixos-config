@@ -73,6 +73,7 @@
     feh
     alacritty
     flameshot
+    lxappearance
 
     # ========================
     # 📁 File Management
