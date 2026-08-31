@@ -81,5 +81,10 @@
     xfce.thunar-archive-plugin
     xfce.thunar-volman
     gvfs
+
+    # ========================
+    # 🔤 Fonts
+    # ========================
+    nerd-fonts.jetbrains-mono
   ];
 }
