@@ -14,7 +14,6 @@
     zoxide
     brightnessctl
     playerctl
-    eww
     wget
     jq
     bc
@@ -73,6 +72,7 @@
     rofi
     feh
     alacritty
+    flameshot
 
     # ========================
     # 📁 File Management
