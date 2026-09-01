@@ -78,4 +78,8 @@
   networking.firewall.allowedUDPPortRanges = [
   	{ from = 1714; to = 1764; }
   ];
+
+  services.logind.settings.Login = {
+    HandlePowerKey = "ignore";
+  };
 }
