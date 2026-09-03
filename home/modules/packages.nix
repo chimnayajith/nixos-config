@@ -74,6 +74,7 @@
     alacritty
     flameshot
     lxappearance
+    xob
 
     # ========================
     # 📁 File Management
