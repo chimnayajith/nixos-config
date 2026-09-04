@@ -14,10 +14,8 @@
     zoxide
     brightnessctl
     playerctl
-    wget
-    jq
-    bc
-
+    libinput-gestures
+    libnotify
     # ========================
     # 🌐 Browsers
     # ========================
@@ -65,6 +63,7 @@
     obs-studio
     kdePackages.kdenlive
     qbittorrent
+    # stremio added through flatpak
 
     # ========================
     # 🖼️ Window Manager Tools
